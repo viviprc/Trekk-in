@@ -1,0 +1,47 @@
+/*Typography*/
+
+h1 {
+    font-family: $raleway;
+    font-size: $xxx-large;
+    font-weight: $bold;
+}
+h2 {
+    font-family: $raleway;
+    font-size: $xx-large;
+    font-weight: $bold;
+
+}
+h3 {
+    font-weight: $bold;
+    padding-bottom: 1rem;
+
+}
+h4 {
+    font-family: $raleway;
+    font-size: 23px;
+    font-weight: $bold;
+}
+h5 {
+    font-family: $open-sans;
+    font-weight: $bold;
+}
+p {
+    font-family: $open-sans;
+}
+.progress-section__text-text {
+    font-size: $small;
+    margin: 0;
+}
+.prices-section__title {
+    color: $white;
+}
+
+.main__section-text {
+    line-height: 2;
+    font-weight: $bold;
+}
+.card__list li {
+    font-weight: $bold;
+    font-family: $open-sans;
+    padding: 10px 0 10px 10px;
+}

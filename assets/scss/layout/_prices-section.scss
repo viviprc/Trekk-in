@@ -1,0 +1,47 @@
+/*Prices-section*/
+#Prices-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #333745;
+    margin-top: 14rem;
+  
+}
+
+.prices-section__title {
+    text-align: center;
+    z-index: 1;
+}
+.prices-section__image {
+    position: absolute;
+    top: -12rem;
+}
+.card {
+    z-index: 3;
+}
+.prices-section__cards {
+    padding: 1.5rem 0 3.25rem 0;
+}
+.rows {
+    align-self: center;
+    row-gap: 3rem;
+}
+
+@media (min-width:768px) {
+    #Prices-section {
+        margin-top: 21rem;
+    }
+    .prices-section__image {
+        top: -16rem;
+    }
+    .rows {
+        column-gap: 4rem;
+    }
+}
+@media (min-width: 992px) {
+    #Prices-section {
+        margin-top: 24rem;
+    }
+
+}
+

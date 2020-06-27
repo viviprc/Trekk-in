@@ -1,0 +1,21 @@
+/*Manifiesto scss*/
+
+@import 'vendors/bootstrap-4.5.0/bootstrap.scss';
+
+@import 'abstract/variables';
+@import 'abstract/mixins';
+
+@import 'base/resets';
+@import 'base/typography';
+@import 'base/base';
+
+@import 'components/navigation';
+@import 'components/buttons';
+@import 'components/cards';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/progress-section';
+@import 'layout/prices-section';
+@import 'layout/footer';

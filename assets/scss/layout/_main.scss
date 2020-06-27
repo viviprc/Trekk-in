@@ -1,0 +1,24 @@
+/*Main-section*/
+
+.main__section {
+    width: 80vw;
+    padding: 1.5rem 1rem 1rem 1rem;
+    position: relative;
+    left: 0;
+  
+}
+
+@media (min-width: 992px) {
+    .main__section {
+        width: 38vw;
+        position: absolute;
+        left: 5.25rem;
+        padding: 3rem 1rem 1rem 1rem;
+
+    }
+    .main__image {
+        position: relative;
+        top: 4rem;
+    }
+
+}

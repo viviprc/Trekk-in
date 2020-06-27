@@ -1,0 +1,48 @@
+/*Progress-section*/
+
+#Progress-section {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress-section__div2 {
+    padding: 20px;
+    .rows {
+        align-self: center;
+    }
+}
+.progress-section__title {
+    padding: 20px 0;
+    margin-bottom: 2rem;
+}
+.progress-section__title-subtitle {
+    margin-top: 2rem;
+}
+.progress-section__image {
+    width: 100%;
+    height: auto;
+    animation-name: barras;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+ }
+ 
+.progress-section__text {
+    height: 100%;
+    align-self: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .progress-section__text-text {
+        font-weight: $bold;
+    }
+}
+
+@media (min-width: 576px) {
+    .progress-section__div2 {
+        padding: 20px 60px;
+    }
+
+}
