@@ -45,3 +45,38 @@ p {
     font-family: $open-sans;
     padding: 10px 0 10px 10px;
 }
+
+@media (min-width: 576px) {
+    .main__section-title {
+        font-size: $x-large;
+    }
+    .main__section-text {
+        font-size: $small;
+    }
+}
+@media (min-width: 768px) {
+    .main__section-title {
+        font-size: $xx-large;
+    }
+    .main__section-text {
+        font-size: $medium;
+        letter-spacing: 1px;
+    }
+}
+@media (min-width: 992px) {
+    .main__section-title {
+        font-size: $xxxx-large;
+    }
+    .main__section-text {
+        font-size: $large;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main__section-title {
+        font-size: $xxxxx-large;
+    }
+    .main__section-text {
+        font-size: $large;
+    }
+}

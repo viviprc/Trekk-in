@@ -11,25 +11,23 @@
     border-top: 2px solid grey;
     margin-top: 5px;
     padding-top: 5px;
-
 }
 
 .form-inline {
     .blue-button {
         width: 120px;
-        transition: background-color 0.3s linear;
-        &:hover {
-            background-color: $middle-blue;
-        }
-        &:focus {
-            background-color: $gray;
-        }
+        @include botones;
     }
     a {
         color: $raisin-black;
         padding: 0 30px;
         font-weight: $bold;
         letter-spacing: 1.5px;
+        text-decoration: none;
+        &:hover {
+            color: $spanish-gray;
+        }
+    
     }
 }
 

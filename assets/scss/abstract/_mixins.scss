@@ -1,0 +1,11 @@
+/*Mixins*/
+@mixin botones {
+    transition: background-color 0.3s linear;
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
+

@@ -7,13 +7,33 @@
     left: 0;
   
 }
+@media (min-width: 576px) {
+    .main__section {
+        width: 60vw;
+        position: absolute;
+        left: 5.25rem;
+        top: 5 rem;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    .main__image {
+        position: relative;
+        top: 5rem;
+    }
+}
+@media (min-width: 768px) {
+    .main__section {
+        width: 40vw;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+}
+
 
 @media (min-width: 992px) {
     .main__section {
-        width: 38vw;
+        width: 40vw;
         position: absolute;
         left: 5.25rem;
-        padding: 3rem 1rem 1rem 1rem;
+        padding: 2rem 1rem 1rem 1rem;
 
     }
     .main__image {
@@ -22,3 +42,6 @@
     }
 
 }
+
+
+

@@ -41,7 +41,12 @@
 }
 
 @media (min-width: 576px) {
-    .progress-section__div2 {
+    #Progress-section {
+        position: relative;
+        top: 5rem;
+        
+    }
+     .progress-section__div2 {
         padding: 20px 60px;
     }
 

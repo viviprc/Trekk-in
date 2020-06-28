@@ -9914,6 +9914,7 @@ h3 {
 /*Font family*/
 /*Font weight*/
 /*Font sizes*/
+/*Mixins*/
 /*Typography*/
 h1 {
   font-family: "Raleway", sans-serif;
@@ -9967,6 +9968,43 @@ p {
   padding: 10px 0 10px 10px;
 }
 
+@media (min-width: 576px) {
+  .main__section-title {
+    font-size: 1.875rem;
+  }
+
+  .main__section-text {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 768px) {
+  .main__section-title {
+    font-size: 2.188rem;
+  }
+
+  .main__section-text {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
+@media (min-width: 992px) {
+  .main__section-title {
+    font-size: 2.813rem;
+  }
+
+  .main__section-text {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .main__section-title {
+    font-size: 3.125rem;
+  }
+
+  .main__section-text {
+    font-size: 1.25rem;
+  }
+}
 /*Base*/
 body {
   font-family: "Raleway", sans-serif;
@@ -10009,6 +10047,10 @@ body {
   padding: 0 30px;
   font-weight: 700;
   letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.form-inline a:hover {
+  color: #8f9199;
 }
 
 @media (min-width: 576px) {
@@ -10039,6 +10081,13 @@ body {
   letter-spacing: 1.5px;
   color: #fff;
   border: none;
+  transition: background-color 0.3s linear;
+}
+.blue-button:hover {
+  background-color: #77d1dd;
+}
+.blue-button:focus {
+  background-color: #bababa;
 }
 
 /*Cards*/
@@ -10051,9 +10100,9 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 .card:hover {
-  -webkit-box-shadow: 0px 3px 8px -1px #8a878a;
-  -moz-box-shadow: 0px 3px 8px -1px #8a878a;
-  box-shadow: 0px 3px 8px -1px #8a878a;
+  -webkit-box-shadow: 0px 3px 8px -1px #636263;
+  -moz-box-shadow: 0px 3px 8px -1px #636263;
+  box-shadow: 0px 3px 8px -1px #636263;
 }
 .card .card__list {
   border-top: 1px solid #8f9199;
@@ -10321,12 +10370,32 @@ body {
   left: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .main__section {
-    width: 38vw;
+    width: 60vw;
     position: absolute;
     left: 5.25rem;
+    top: 5 rem;
     padding: 3rem 1rem 1rem 1rem;
+  }
+
+  .main__image {
+    position: relative;
+    top: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .main__section {
+    width: 40vw;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .main__section {
+    width: 40vw;
+    position: absolute;
+    left: 5.25rem;
+    padding: 2rem 1rem 1rem 1rem;
   }
 
   .main__image {
@@ -10380,6 +10449,11 @@ body {
 }
 
 @media (min-width: 576px) {
+  #Progress-section {
+    position: relative;
+    top: 5rem;
+  }
+
   .progress-section__div2 {
     padding: 20px 60px;
   }
@@ -10438,7 +10512,7 @@ body {
 footer {
   height: 7.5rem;
   background-color: #221d23;
-  color: #fff;
+  color: #c7cbcc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10449,7 +10523,6 @@ footer .footer__item-left {
   align-items: center;
   justify-content: center;
   font-family: "Raleway", sans-serif;
-  color: #c7cbcc;
 }
 footer .footer__item-left ul {
   display: flex;
@@ -10460,10 +10533,16 @@ footer .footer__item-left ul {
 footer .footer__item-left ul li {
   padding: 20px;
 }
+footer .footer__item-left ul li a {
+  color: #c7cbcc;
+  text-decoration: none;
+}
+footer .footer__item-left ul li a:hover {
+  color: #726f73;
+}
 footer .footer__item-right {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  color: #c7cbcc;
 }
 footer .footer__item-right p {
   font-family: "Raleway", sans-serif;
